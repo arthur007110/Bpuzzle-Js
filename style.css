@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(4, 6, 17);
+}
+
+.game-grid{
+    background-color: rgb(11, 15, 43);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.points-label{
+    background-color: rgb(21, 28, 80);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5%;
+    left: 70%;
+}
+
+.points-text{
+    transform: rotate(90deg);
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+
+.player{
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.shoot{
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.cursor{
+    transform: rotate(90deg);
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid lightblue;
+    border-bottom: 5px solid transparent;
+}
+
+.green{
+    background-color: forestgreen;
+}
+.red{
+    background-color: darkred;
+}
+.blue{
+    background-color: navy;
+}
+
+.block{
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.fruit{
+    background-color: firebrick;
+    position: absolute;
+    border: 1px solid white;
+}
